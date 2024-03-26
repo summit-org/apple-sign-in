@@ -3,6 +3,7 @@
   "version": "5.0.0",
   "description": "Capacitor Sign in with Apple",
   "main": "dist/esm/index.js",
+  "type": "module",
   "types": "dist/esm/index.d.ts",
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
